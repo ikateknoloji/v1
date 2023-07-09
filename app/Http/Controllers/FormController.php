@@ -135,7 +135,7 @@ class FormController extends Controller
         $validatedData = $request->validate([
             'customer_fullname' => 'required|string',
             'phone' => ['required', 'string', 'regex:/^\d{10}$/'], 
-            'email' => 'required|email|unique:customers',
+            'email' => 'required|email',
         ], [
             'required' => ':attribute alanı zorunludur.',
             'string' => ':attribute alanı metin olmalıdır.',
