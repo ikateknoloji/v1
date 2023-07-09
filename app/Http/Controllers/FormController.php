@@ -36,12 +36,12 @@ class FormController extends Controller
 
         ] , [
             'customer_fullname' => 'Ad ve Soyad',
-            'phone' => 'Telefon numaranız', 
-            'email' => 'Email Adresiniz',
+            'phone' => 'Telefon numarası', 
+            'email' => 'Email Adresi',
             'company_name' => 'Firmanızın Ad',
-            'activity_field' => 'Faliyet Alanınız',
-            'motto' => 'Mottonuz',
-            'establishment_year' => 'Kuruluş Yılınız',
+            'activity_field' => 'Faliyet',
+            'motto' => 'Motto',
+            'establishment_year' => 'Kuruluş Yılı',
             'about_company' => 'Hakkınızda',
             'message' => 'Mesaj',
             'city_id' => 'İl',
